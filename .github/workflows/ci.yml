@@ -31,4 +31,4 @@ jobs:
           shopt -s nullglob
           files=(js/*.test.js)
           if [ ${#files[@]} -eq 0 ]; then echo "no tests yet"; exit 0; fi
-          node --test js/
+          node --test js/*.test.js
