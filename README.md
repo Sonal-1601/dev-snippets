@@ -16,5 +16,5 @@ js/   plain ES modules (Node ≥ 20)
 
 ```sh
 shellcheck sh/*.sh
-node --test js/
+npm test
 ```
